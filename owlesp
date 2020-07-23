@@ -16,7 +16,7 @@ local tracerStart = newVector2(currentCamera.ViewportSize.X / 2, currentCamera.V
 function OwlESP.new(data)
     local self = setmetatable({
         plr = data.plr,
-        char = data.plr.Character,
+        char = game.workspace:FindFirstChild(data.plr.Name),
         espBox = nil,
         name = nil,
         tracer = nil,
