@@ -20,7 +20,7 @@ function OwlESP.new(data)
         espBox = nil,
         name = nil,
         tracer = nil,
-        espColor = data.espColor or fromRGB(255, 255, 255),
+        espColor = _G.espColor or fromRGB(255, 255, 255),
         teamCheck = data.teamCheck or false;
     }, {__index = OwlESP});
 
