@@ -775,7 +775,7 @@ do
 		self.activeNotification = close
 
 		spawn(function()
-		wait(3)
+		wait(2)
 		if not active then 
 			return
 		end
