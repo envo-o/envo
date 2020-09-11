@@ -722,9 +722,6 @@ do
 			})
 		})
 		
-		-- dragging
-		utility:DraggingEnabled(notification)
-		
 		-- position and size
 		title = title or "Notification"
 		text = text or ""
