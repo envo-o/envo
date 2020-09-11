@@ -736,7 +736,7 @@ do
 		notification.Size = UDim2.new(0, 0, 0, 60)
 		
 		utility:Tween(notification, {Size = UDim2.new(0, textSize.X + 70, 0, 60)}, 0.05)
-		wait(0.2)
+		wait(0.05)
 		
 		notification.ClipsDescendants = false
 		utility:Tween(notification.Flash, {
